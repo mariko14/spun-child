@@ -4,7 +4,7 @@ Theme Name:spun-child
 Theme URI:
 Description:spun の子テーマです
 Author:mariko
-Version:1.0.2
+Version:1.0.3
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
 html { font-size: 62.5%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -255,6 +255,7 @@ embed, iframe, object { max-width: 100%;}
 .site-footer p.min{line-height: 130%;}
 .page .sharedaddy{display: none !important;}
 @media screen and ( max-width: 1200px ) { 
+	.site {width: 900px;}
 #top-movie .movie-line{max-width: 100%;height: auto;}
 #header-inner{ width: 700px;position: initial;}
 .single .content-area, .page .content-area, .search-no-results .content-area, .error404 .content-area { width: 100%;}
@@ -275,7 +276,7 @@ embed, iframe, object { max-width: 100%;}
 	 h2.site-title{margin: 25px auto 0 auto;}
 	h2.site-title a { width: 400px;}
 	.movie-img-bow{bottom: -19px !important;}
-	.site{ width: 700px; margin:40px auto 0 auto;padding: 0;}
+	.site{ width: 600px; margin:40px auto 0 auto;padding: 0;}
 	.movie-area{width: 600px; }
 	.movie-img{width: 90px;height: auto;bottom: -60px;}
 	.movie-img-l {left: 10px;}
@@ -299,7 +300,7 @@ embed, iframe, object { max-width: 100%;}
 }
 @media screen and ( max-width: 600px ) {
 	br.none600{display:inline;}
-	 .site ,.movie-area{ padding: 0; width: 500px;}
+	 .site ,.movie-area{ padding: 0; width: 400px;}
 	 #top-movie{margin: 0 auto;}
 	h2.site-title a { width: 300px;}
 	.movie-img-bow{width: 40px !important;}
